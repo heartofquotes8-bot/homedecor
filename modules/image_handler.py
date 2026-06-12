@@ -151,11 +151,11 @@ class ImageHandler:
             canvas = img.copy()
             draw = ImageDraw.Draw(canvas)
             
-            font_path = "Montserrat-Bold.ttf"
+            font_path = "Anton-Regular.ttf"
             if not os.path.exists(font_path):
                 try:
                     import urllib.request
-                    font_url = "https://raw.githubusercontent.com/google/fonts/main/ofl/montserrat/static/Montserrat-Bold.ttf"
+                    font_url = "https://raw.githubusercontent.com/google/fonts/main/ofl/anton/Anton-Regular.ttf"
                     urllib.request.urlretrieve(font_url, font_path)
                 except Exception as e:
                     print(f"   ⚠️ Font download failed: {e}")
