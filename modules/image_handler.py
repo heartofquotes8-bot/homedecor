@@ -93,7 +93,7 @@ class ImageHandler:
             return self._create_placeholder_image(title)
 
         try:
-            search_query = self._get_recipe_query(topic)
+            search_query = self._get_decor_query(topic)
             url = f"{self.pexels_base_url}/search"
             headers = {"Authorization": self.pexels_api_key}
             params = {"query": search_query, "per_page": 5, "orientation": "portrait"}
@@ -115,23 +115,24 @@ class ImageHandler:
             print(f"   ❌ Pexels error: {e}")
         return self._create_placeholder_image(title)
 
-    def _get_recipe_query(self, topic: str) -> str:
-        """Pexels search query for recipes"""
+    def _get_decor_query(self, topic: str) -> str:
+        """Pexels search query for home decor"""
         topic_lower = topic.lower()
         mapping = {
-            "pasta": "delicious pasta food",
-            "chicken": "cooked chicken dinner",
-            "breakfast": "healthy breakfast food",
-            "dessert": "sweet dessert cake",
-            "dinner": "dinner plate food",
-            "soup": "bowl of soup",
-            "healthy": "healthy salad food",
-            "pizza": "pizza slice cheese",
+            "bedroom": "bedroom interior design",
+            "living room": "living room decor",
+            "kitchen": "modern kitchen interior",
+            "bathroom": "bathroom interior design",
+            "japandi": "minimalist interior design",
+            "boho": "bohemian interior decor",
+            "office": "home office interior",
+            "plants": "indoor plants decor",
+            "furniture": "modern furniture",
         }
         for key, query in mapping.items():
             if key in topic_lower:
                 return query
-        return "delicious food cooking"
+        return "modern interior design home"
 
     def _draw_text_with_heavy_stroke(self, draw, x, y, text, font, text_color, stroke_color, stroke_width):
         """Draws text with a very thick outline (stroke) by drawing the text multiple times in a circle"""
@@ -154,7 +155,7 @@ class ImageHandler:
             if not os.path.exists(font_path):
                 try:
                     import urllib.request
-                    font_url = "https://raw.githubusercontent.com/google/fonts/main/ofl/montserrat/Montserrat-Bold.ttf"
+                    font_url = "https://raw.githubusercontent.com/google/fonts/main/ofl/montserrat/static/Montserrat-Bold.ttf"
                     urllib.request.urlretrieve(font_url, font_path)
                 except Exception as e:
                     print(f"   ⚠️ Font download failed: {e}")
