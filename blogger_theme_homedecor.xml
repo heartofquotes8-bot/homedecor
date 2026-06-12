@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:css='false' b:defaultwidgetversion='2' b:layoutsVersion='3' b:responsive='true' b:templateVersion='1.0.0' expr:class='data:blog.languageDirection' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+    <b:include data='blog' name='all-head-content'/>
+    <meta content='width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1' name='viewport'/>
+    <title><data:blog.pageTitle/></title>
+    
+    <!-- Pinterest Verification -->
+    <meta content='cc0a20c5fcb5f61af407cc22e08b9b74' name='p:domain_verify'/>
+    
+    <!-- SEO Meta Tags -->
+    <meta content='Discover the best modern home decor ideas, interior design inspiration, beautiful bedroom makeovers, and minimalist furniture tips to elevate your living space everyday!' name='description'/>
+    
+    <!-- Adsterra Pop Under -->
+    <script src='https://pl29720489.effectivecpmnetwork.com/5a/f3/46/5af3461dd9388980b20ecef9e4d0c7fc.js' type='text/javascript'></script>
+    
+    <!-- Adsterra Social Bar -->
+    <script src='https://pl29720492.effectivecpmnetwork.com/ca/01/05/ca0105967e5dd4d3ffac274deb62d9c9.js' type='text/javascript'></script>
+    
+    <b:skin version='1.0.0'><![CDATA[
+    /* Elegant Modern CSS For Home Decor Blog */
+    body { font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; margin: 0; padding: 0; background-color: #F9F9F7; color: #4A4A4A; line-height: 1.7; }
+    header { background-color: #EBEBE6; padding: 40px 20px; text-align: center; border-bottom: 3px solid #7A8976; }
+    header h1 { margin: 0; color: #333333; font-size: 2.5em; text-transform: uppercase; letter-spacing: 3px; font-weight: 600; }
+    header p { color: #666666; font-style: italic; font-size: 1.1em; letter-spacing: 1px; margin-top: 10px; }
+    .container { max-width: 800px; margin: 30px auto; padding: 0 20px; }
+    .post { background: #FFFFFF; padding: 35px; margin-bottom: 40px; border-radius: 4px; box-shadow: 0 4px 20px rgba(0,0,0,0.03); border: 1px solid #EBEBE6; }
+    .post-title { font-size: 2em; margin-top: 0; color: #222222; font-weight: 600; line-height: 1.3; }
+    .post-title a { color: #222222; text-decoration: none; }
+    .post-title a:hover { color: #7A8976; }
+    .ad-slot { margin: 30px 0; text-align: center; overflow: hidden; }
+    img { max-width: 100%; height: auto; border-radius: 4px; }
+    a { color: #7A8976; text-decoration: none; font-weight: 500; }
+    a:hover { text-decoration: underline; color: #5A6956; }
+    .post-body { font-size: 1.1em; color: #4A4A4A; }
+    h2, h3, h4 { color: #333333; font-weight: 500; margin-top: 30px; }
+    ]]></b:skin>
+</head>
+<body>
+    <header>
+        <h1><data:blog.title/></h1>
+        <p>Your Ultimate Guide to Elevating Your Living Space</p>
+    </header>
+
+    <!-- Top Banner 728x90 -->
+    <div class='ad-slot'>
+        <script type='text/javascript'>
+//<![CDATA[
+          atOptions = {
+            'key' : '9e9591ee5caaf3856a6c97e122c187fc',
+            'format' : 'iframe',
+            'height' : 90,
+            'width' : 728,
+            'params' : {}
+          };
+//]]>
+        </script>
+        <script src='https://www.highperformanceformat.com/9e9591ee5caaf3856a6c97e122c187fc/invoke.js' type='text/javascript'></script>
+    </div>
+
+    <div class='container'>
+        <b:section class='main' id='main' showaddelement='yes'>
+            <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog' version='2'>
+                <b:widget-settings>
+                    <b:widget-setting name='showDateHeader'>true</b:widget-setting>
+                </b:widget-settings>
+                <b:includable id='main' var='top'>
+                    <b:loop values='data:posts' var='post'>
+                        <div class='post'>
+                            <h2 class='post-title'>
+                                <a expr:href='data:post.url'><data:post.title/></a>
+                            </h2>
+                            <div class='post-body'>
+                                <data:post.body/>
+                            </div>
+                            
+                            <!-- Ads Only show inside the post page (not on homepage) to avoid clutter -->
+                            <b:if cond='data:blog.pageType == &quot;item&quot;'>
+                                <!-- Middle Ad Native Banner -->
+                                <div class='ad-slot'>
+                                    <script async='async' data-cfasync='false' src='https://pl29720490.effectivecpmnetwork.com/6e77deaac5476599e55a66d0cf1aeef1/invoke.js' type='text/javascript'></script>
+                                    <div id='container-6e77deaac5476599e55a66d0cf1aeef1'></div>
+                                </div>
+                            </b:if>
+                        </div>
+                    </b:loop>
+                </b:includable>
+            </b:widget>
+        </b:section>
+    </div>
+</body>
+</html>
