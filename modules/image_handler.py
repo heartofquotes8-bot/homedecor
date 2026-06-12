@@ -69,18 +69,18 @@ class ImageHandler:
             return None
 
     def _build_image_prompt(self, topic: str, title: str) -> str:
-        """Food/Recipe optimized prompts"""
+        """Home Decor optimized prompts"""
         topic_lower = topic.lower()
         prompt_templates = {
-            "pasta": "Delicious creamy pasta dish, top down food photography, warm lighting, rustic table, 8k resolution, professional food styling",
-            "chicken": "Juicy cooked chicken dish, garnished with herbs, restaurant quality food photography, macro lens, beautifully plated",
-            "breakfast": "Healthy breakfast bowl or plate, fresh fruits, eggs, avocado, morning sunlight, bright and airy food photography",
-            "dessert": "Mouth-watering decadent dessert, chocolate and berries, dramatic lighting, professional pastry photography",
-            "dinner": "Comforting family dinner spread, hot and steamy food, cozy atmosphere, professional culinary photography",
-            "air fryer": "Crispy golden air fryer food, perfectly cooked, highly textured, appetizing food photography",
-            "soup": "Warm bowl of comforting soup, steam rising, rustic bread on side, moody food photography",
-            "pizza": "Cheesy delicious pizza, wood fired crust, melting cheese pull, appetizing food photography, vibrant colors",
-            "healthy": "Fresh vibrant healthy salad or bowl, colorful vegetables, bright lighting, clean food photography"
+            "bedroom": "Beautiful modern bedroom interior design, cozy bed, aesthetic lighting, minimalist, 8k resolution, architectural digest style",
+            "living room": "Luxury living room decor, comfortable sofa, large windows, indoor plants, warm natural light, high-end interior photography",
+            "kitchen": "Modern aesthetic kitchen interior, marble countertops, stylish cabinets, clean and bright, architectural photography",
+            "bathroom": "Spa-like luxury bathroom interior, elegant tiles, modern fixtures, soft lighting, interior design",
+            "japandi": "Japandi style interior design, minimalist, natural wood, neutral earthy tones, zen atmosphere, professional photography",
+            "boho": "Bohemian style room decor, rattan furniture, macrame, cozy textures, warm lighting, interior photography",
+            "office": "Stylish home office setup, modern desk, ergonomic chair, productive aesthetic workspace, bright room",
+            "furniture": "Elegant wooden furniture piece in a modern room, stylish home decor, architectural digest photography",
+            "plants": "Beautiful indoor plants decorating a modern living space, biophilic design, bright natural light"
         }
         for key, prompt in prompt_templates.items():
             if key in topic_lower:
@@ -170,22 +170,22 @@ class ImageHandler:
                 font_main = ImageFont.load_default()
                 
             # Break title into max 3 lines
+            # Break title into max 4 lines
             import textwrap
-            words = title.upper().split()
             
-            # The top category text
-            top_text = "INTERIOR DESIGN"
-            if len(words) > 4:
-                top_text = " ".join(words[:2])
-                words = words[2:]
-                
-            main_lines = textwrap.wrap(" ".join(words), width=15)[:3] # Max 3 lines
+            # The user requested 'Pin It! ...' style, so we can prepend it or just use the title
+            full_title = f"Pin It! {title}" if "pin" not in title.lower() else title
             
-            # Y position starts lower for an elegant look
-            current_y = 100
+            # Use Title Case instead of UPPERCASE for a more elegant look
+            words = full_title.title().split()
             
-            # Helper to draw text with a sleek semi-transparent background box
-            def draw_elegant_text(draw_obj, text, font_obj, y_pos, bg_color, text_color):
+            main_lines = textwrap.wrap(" ".join(words), width=18)[:4] # Max 4 lines
+            
+            # Y position starts near the upper-middle (e.g. wall space)
+            current_y = 350
+            
+            # Helper to draw clean text with a very soft shadow for legibility
+            def draw_clean_text(draw_obj, text, font_obj, y_pos, text_color):
                 try:
                     bbox = font_obj.getbbox(text)
                     w = bbox[2] - bbox[0]
@@ -195,34 +195,25 @@ class ImageHandler:
                     h = 100
                 x = (1000 - w) // 2
                 
-                # Draw semi-transparent background rectangle
-                padding_x = 40
-                padding_y = 20
-                rect_coords = [x - padding_x, y_pos - padding_y, x + w + padding_x, y_pos + h + padding_y]
+                # Soft shadow
+                shadow_offset = 3
+                draw_obj.text((x + shadow_offset, y_pos + shadow_offset), text, font=font_obj, fill=(255, 255, 255, 150)) # Light shadow/glow
                 
-                # PIL doesn't support RGBA directly on RGB draw, so we draw on an RGBA overlay and composite
-                overlay = Image.new('RGBA', img.size, (255, 255, 255, 0))
-                overlay_draw = ImageDraw.Draw(overlay)
-                overlay_draw.rectangle(rect_coords, fill=bg_color)
-                overlay_draw.text((x, y_pos), text, font=font_obj, fill=text_color)
+                # Main text
+                draw_obj.text((x, y_pos), text, font=font_obj, fill=text_color)
                 
-                canvas.paste(overlay, (0,0), overlay)
-                return h + (padding_y * 2)
-
-            # 1. Draw Top Text (Elegant Sage Green/Earth Tone box with White Text)
-            box_height = draw_elegant_text(
-                draw, top_text, font_top, current_y, 
-                bg_color=(150, 160, 140, 230), text_color=(255, 255, 255) # Sage Green
-            )
-            current_y += box_height + 20
+                return h
                 
-            # 2. Draw Main Title Lines (Elegant Dark Grey box with White Text)
+            # 2. Draw Main Title Lines (Elegant Dark Brown Text, no boxes)
+            # Text color: #5C4033 (Dark Brown)
             for line in main_lines:
-                box_height = draw_elegant_text(
+                box_height = draw_clean_text(
                     draw, line, font_main, current_y, 
-                    bg_color=(30, 30, 30, 200), text_color=(255, 255, 255) # Charcoal
+                    text_color=(92, 64, 51) # Dark Brown
                 )
-                current_y += box_height + 10 # Slight spacing between lines
+                current_y += box_height + 25 # Spacing between lines
+                    
+            return canvas
                     
             return canvas
         except Exception as e:

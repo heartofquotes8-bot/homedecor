@@ -84,19 +84,17 @@ class BloggerPublisher:
             if image_data:
                 # Use direct HTTP URL so RSS feeds and Make.com can parse it properly
                 img_url = image_data.get("url")
+                source_credit = image_data.get("source", "")
                 
                 if img_url:
                     image_html = f'''
 <div style="display:none; visibility:hidden;">
     <img src="{img_url}" alt="{post_data['seo_title']}" data-pin-media="true" />
 </div>
-<div style="text-align:center; margin-bottom:20px;">
-    <img src="{img_url}" 
-         alt="{post_data['seo_title']}" 
-         style="max-width:100%; height:auto; border-radius:8px;"
-         title="{post_data['seo_title']}"/>
-    <p style="font-size:12px; color:#666; margin-top:5px;">
-        Image: Delicious Recipe
+<div style="text-align: center; margin-bottom: 20px;">
+    <img src="{image_data.get('url', '')}" alt="Home Decor Inspiration" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+    <p style="font-size: 0.9em; color: #777; margin-top: 10px;">
+        <em>Image: Beautiful Home Decor inspiration {source_credit}</em>
     </p>
 </div>'''
 

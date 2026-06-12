@@ -7,16 +7,16 @@
     <title><data:blog.pageTitle/></title>
     
     <!-- Pinterest Verification -->
-    <meta content='cc0a20c5fcb5f61af407cc22e08b9b74' name='p:domain_verify'/>
+    <meta content='800a455b111ad5710a2eb97c8b491f39' name='p:domain_verify'/>
     
     <!-- SEO Meta Tags -->
     <meta content='Discover the best modern home decor ideas, interior design inspiration, beautiful bedroom makeovers, and minimalist furniture tips to elevate your living space everyday!' name='description'/>
     
     <!-- Adsterra Pop Under -->
-    <script src='https://pl29720489.effectivecpmnetwork.com/5a/f3/46/5af3461dd9388980b20ecef9e4d0c7fc.js' type='text/javascript'></script>
+    <script src='https://pl29723430.effectivecpmnetwork.com/2d/74/25/2d742528ce0c616d5e684a4de93e67b3.js' type='text/javascript'></script>
     
     <!-- Adsterra Social Bar -->
-    <script src='https://pl29720492.effectivecpmnetwork.com/ca/01/05/ca0105967e5dd4d3ffac274deb62d9c9.js' type='text/javascript'></script>
+    <script src='https://pl29723433.effectivecpmnetwork.com/d5/1f/3f/d51f3f2d13b972fbb0a85bce88ecf3b2.js' type='text/javascript'></script>
     
     <b:skin version='1.0.0'><![CDATA[
     /* Elegant Modern CSS For Home Decor Blog */
@@ -48,7 +48,7 @@
         <script type='text/javascript'>
 //<![CDATA[
           atOptions = {
-            'key' : '9e9591ee5caaf3856a6c97e122c187fc',
+            'key' : '82cf52b11b3dbbae42c23fc91b27413e',
             'format' : 'iframe',
             'height' : 90,
             'width' : 728,
@@ -56,7 +56,7 @@
           };
 //]]>
         </script>
-        <script src='https://www.highperformanceformat.com/9e9591ee5caaf3856a6c97e122c187fc/invoke.js' type='text/javascript'></script>
+        <script src='https://www.highperformanceformat.com/82cf52b11b3dbbae42c23fc91b27413e/invoke.js' type='text/javascript'></script>
     </div>
 
     <div class='container'>
@@ -79,8 +79,8 @@
                             <b:if cond='data:blog.pageType == &quot;item&quot;'>
                                 <!-- Middle Ad Native Banner -->
                                 <div class='ad-slot'>
-                                    <script async='async' data-cfasync='false' src='https://pl29720490.effectivecpmnetwork.com/6e77deaac5476599e55a66d0cf1aeef1/invoke.js' type='text/javascript'></script>
-                                    <div id='container-6e77deaac5476599e55a66d0cf1aeef1'></div>
+                                    <script async='async' data-cfasync='false' src='https://pl29723431.effectivecpmnetwork.com/d4b4d9db3319de14dda0fe8dbfa780d9/invoke.js' type='text/javascript'></script>
+                                    <div id='container-d4b4d9db3319de14dda0fe8dbfa780d9'></div>
                                 </div>
                             </b:if>
                         </div>
