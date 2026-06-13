@@ -15,3 +15,5 @@
 [2026-06-13 11:25:48] [INFO] Topic selected: creating a cozy reading nook in a small space
 [2026-06-13 11:25:54] [ERROR] Blogger publish failed: <HttpError 403 when requesting https://blogger.googleapis.com/v3/blogs/5842917719148063538/posts?isDraft=false&fetchBody=false&alt=json returned "The caller does not have permission". Details: "[{'message': 'The caller does not have permission', 'domain': 'global', 'reason': 'forbidden'}]">
 [2026-06-13 11:25:54] [SUCCESS] SUCCESS: Transform Your Tiny Corner into a Cozy Reading Haven: Expert Tips and Tricks | Blog: False | Pin: True
+[2026-06-13 13:11:35] [INFO] Topic selected: 5 Budget-Friendly Bathroom Makeover Ideas
+[2026-06-13 13:11:41] [SUCCESS] SUCCESS: 5 Budget-Friendly Bathroom Makeover Ideas to Transform Your Space | Blog: True | Pin: True
