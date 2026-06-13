@@ -12,3 +12,6 @@
 [2026-06-12 21:20:58] [SUCCESS] SUCCESS: Transform Your Tiny Space: Expert Tips to Make a Small Living Room Look Bigger | Blog: True | Pin: True
 [2026-06-13 00:08:20] [INFO] Topic selected: aesthetic apartment balcony decorating ideas
 [2026-06-13 00:08:26] [SUCCESS] SUCCESS: Transform Your Outdoor Oasis: 20 Aesthetic Apartment Balcony Decorating Ideas | Blog: True | Pin: True
+[2026-06-13 11:25:48] [INFO] Topic selected: creating a cozy reading nook in a small space
+[2026-06-13 11:25:54] [ERROR] Blogger publish failed: <HttpError 403 when requesting https://blogger.googleapis.com/v3/blogs/5842917719148063538/posts?isDraft=false&fetchBody=false&alt=json returned "The caller does not have permission". Details: "[{'message': 'The caller does not have permission', 'domain': 'global', 'reason': 'forbidden'}]">
+[2026-06-13 11:25:54] [SUCCESS] SUCCESS: Transform Your Tiny Corner into a Cozy Reading Haven: Expert Tips and Tricks | Blog: False | Pin: True

@@ -4,9 +4,9 @@
   "language": "English",
   "posts_per_day": 2,
   "created_at": "2026-06-10",
-  "last_updated": "2026-06-13T00:08:26.100435",
+  "last_updated": "2026-06-13T11:25:54.379732",
   "total_posts_published": 7,
-  "total_pins_created": 7,
+  "total_pins_created": 8,
   "api_keys_configured": true,
   "blogger_configured": true,
   "pinterest_configured": true,
@@ -18,9 +18,16 @@
     "The Ultimate Guide to Japandi Interior Design",
     "earthy tone color palettes for a warm home",
     "How to Decorate a Small Living Room to Look Bigger",
-    "aesthetic apartment balcony decorating ideas"
+    "aesthetic apartment balcony decorating ideas",
+    "creating a cozy reading nook in a small space"
   ],
-  "failed_attempts": [],
+  "failed_attempts": [
+    {
+      "topic": "creating a cozy reading nook in a small space",
+      "error": "<HttpError 403 when requesting https://blogger.googleapis.com/v3/blogs/5842917719148063538/posts?isDraft=false&fetchBody=false&alt=json returned \"The caller does not have permission\". Details: \"[{'message': 'The caller does not have permission', 'domain': 'global', 'reason': 'forbidden'}]\">",
+      "timestamp": "2026-06-13T11:25:54.378550"
+    }
+  ],
   "github": {
     "username": "jobleio111-cell",
     "repo_name": "moneymakers",
@@ -152,6 +159,18 @@
     {
       "date": "2026-06-13T00:08:26.100428",
       "action": "Daily run complete: 1 success, 0 failed",
+      "status": "completed",
+      "notes": "Total posts ever: 7"
+    },
+    {
+      "date": "2026-06-13T11:25:38.547101",
+      "action": "Daily run started - 1 posts",
+      "status": "started",
+      "notes": ""
+    },
+    {
+      "date": "2026-06-13T11:25:54.379723",
+      "action": "Daily run complete: 0 success, 1 failed",
       "status": "completed",
       "notes": "Total posts ever: 7"
     }
