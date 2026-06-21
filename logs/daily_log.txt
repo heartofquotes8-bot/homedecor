@@ -95,3 +95,5 @@
 [2026-06-20 23:47:20] [SUCCESS] SUCCESS: Transform Your Outdoor Oasis: 20 Aesthetic Apartment Balcony Decorating Ideas | Blog: True | Pin: True
 [2026-06-21 12:02:15] [INFO] Topic selected: Mid-Century Modern Furniture Essentials
 [2026-06-21 12:02:21] [SUCCESS] SUCCESS: Revolutionize Your Space with Mid-Century Modern Furniture Essentials | Blog: True | Pin: True
+[2026-06-21 13:27:32] [INFO] Topic selected: earthy tone color palettes for a warm home
+[2026-06-21 13:27:38] [SUCCESS] SUCCESS: Warmth at Home: The Ultimate Guide to Earthy Tone Color Palettes | Blog: True | Pin: True
