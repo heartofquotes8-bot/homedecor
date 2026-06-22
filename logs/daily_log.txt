@@ -103,3 +103,5 @@
 [2026-06-21 20:49:57] [SUCCESS] SUCCESS: Mid-Century Modern Furniture Essentials: Timeless Elegance for Your Home | Blog: True | Pin: True
 [2026-06-21 23:55:29] [INFO] Topic selected: How to Decorate a Small Living Room to Look Bigger
 [2026-06-21 23:55:36] [SUCCESS] SUCCESS: Transform Your Tiny Space: Expert Tips to Make a Small Living Room Look Bigger | Blog: True | Pin: True
+[2026-06-22 18:34:22] [INFO] Topic selected: The Ultimate Guide to Japandi Interior Design
+[2026-06-22 18:34:29] [SUCCESS] SUCCESS: Japandi Interior Design: The Perfect Blend of Japanese and Scandinavian Styles | Blog: True | Pin: True
