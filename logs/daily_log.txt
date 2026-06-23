@@ -119,3 +119,5 @@
 [2026-06-23 16:44:04] [SUCCESS] SUCCESS: Revolutionize Your Space with Mid-Century Modern Furniture Essentials | Blog: True | Pin: True
 [2026-06-23 18:20:10] [INFO] Topic selected: diy wall art projects to elevate your space
 [2026-06-23 18:20:19] [SUCCESS] SUCCESS: Revamp Your Walls: 10 DIY Wall Art Projects to Transform Your Space | Blog: True | Pin: True
+[2026-06-23 21:20:35] [INFO] Topic selected: Best Indoor Plants for Modern Home Decor
+[2026-06-23 21:20:42] [SUCCESS] SUCCESS: Revolutionize Your Space: The Ultimate Guide to Indoor Plants for Modern Home Decor | Blog: True | Pin: True
