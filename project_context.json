@@ -4,9 +4,9 @@
   "language": "English",
   "posts_per_day": 2,
   "created_at": "2026-06-10",
-  "last_updated": "2026-06-24T16:03:50.169101",
-  "total_posts_published": 63,
-  "total_pins_created": 64,
+  "last_updated": "2026-06-24T18:15:36.518742",
+  "total_posts_published": 64,
+  "total_pins_created": 65,
   "api_keys_configured": true,
   "blogger_configured": true,
   "pinterest_configured": true,
@@ -38,7 +38,8 @@
     "mid-century modern furniture essentials",
     "home office setup ideas for maximum productivity",
     "diy wall art projects to elevate your space",
-    "how to decorate a small living room to look bigger"
+    "how to decorate a small living room to look bigger",
+    "the ultimate guide to japandi interior design"
   ],
   "failed_attempts": [
     {
@@ -73,18 +74,6 @@
     "model": "flux-realism"
   },
   "sessions": [
-    {
-      "date": "2026-06-19T18:11:52.063689",
-      "action": "Daily run started - 1 posts",
-      "status": "started",
-      "notes": ""
-    },
-    {
-      "date": "2026-06-19T18:12:12.421903",
-      "action": "Daily run complete: 1 success, 0 failed",
-      "status": "completed",
-      "notes": "Total posts ever: 39"
-    },
     {
       "date": "2026-06-19T20:49:44.194347",
       "action": "Daily run started - 1 posts",
@@ -372,6 +361,18 @@
       "action": "Daily run complete: 1 success, 0 failed",
       "status": "completed",
       "notes": "Total posts ever: 63"
+    },
+    {
+      "date": "2026-06-24T18:15:16.540102",
+      "action": "Daily run started - 1 posts",
+      "status": "started",
+      "notes": ""
+    },
+    {
+      "date": "2026-06-24T18:15:36.518735",
+      "action": "Daily run complete: 1 success, 0 failed",
+      "status": "completed",
+      "notes": "Total posts ever: 64"
     }
   ],
   "settings": {
@@ -415,9 +416,9 @@
     }
   },
   "stats": {
-    "this_week": 63,
-    "this_month": 63,
-    "all_time": 63
+    "this_week": 64,
+    "this_month": 64,
+    "all_time": 64
   },
   "system_info": {
     "python_version": "3.11+",
