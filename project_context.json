@@ -4,9 +4,9 @@
   "language": "English",
   "posts_per_day": 2,
   "created_at": "2026-06-10",
-  "last_updated": "2026-06-24T23:46:00.978786",
-  "total_posts_published": 66,
-  "total_pins_created": 67,
+  "last_updated": "2026-06-25T12:10:44.950132",
+  "total_posts_published": 67,
+  "total_pins_created": 68,
   "api_keys_configured": true,
   "blogger_configured": true,
   "pinterest_configured": true,
@@ -41,7 +41,8 @@
     "how to decorate a small living room to look bigger",
     "the ultimate guide to japandi interior design",
     "10 minimalist bedroom ideas for a calming space",
-    "How to Create the Perfect Gallery Wall"
+    "How to Create the Perfect Gallery Wall",
+    "5 budget-friendly bathroom makeover ideas"
   ],
   "failed_attempts": [
     {
@@ -76,18 +77,6 @@
     "model": "flux-realism"
   },
   "sessions": [
-    {
-      "date": "2026-06-20T11:26:39.724486",
-      "action": "Daily run started - 1 posts",
-      "status": "started",
-      "notes": ""
-    },
-    {
-      "date": "2026-06-20T11:26:56.570154",
-      "action": "Daily run complete: 1 success, 0 failed",
-      "status": "completed",
-      "notes": "Total posts ever: 42"
-    },
     {
       "date": "2026-06-20T13:10:19.680344",
       "action": "Daily run started - 1 posts",
@@ -375,6 +364,18 @@
       "action": "Daily run complete: 1 success, 0 failed",
       "status": "completed",
       "notes": "Total posts ever: 66"
+    },
+    {
+      "date": "2026-06-25T12:10:28.782788",
+      "action": "Daily run started - 1 posts",
+      "status": "started",
+      "notes": ""
+    },
+    {
+      "date": "2026-06-25T12:10:44.950126",
+      "action": "Daily run complete: 1 success, 0 failed",
+      "status": "completed",
+      "notes": "Total posts ever: 67"
     }
   ],
   "settings": {
@@ -418,9 +419,9 @@
     }
   },
   "stats": {
-    "this_week": 66,
-    "this_month": 66,
-    "all_time": 66
+    "this_week": 67,
+    "this_month": 67,
+    "all_time": 67
   },
   "system_info": {
     "python_version": "3.11+",
