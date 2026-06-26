@@ -4,9 +4,9 @@
   "language": "English",
   "posts_per_day": 2,
   "created_at": "2026-06-10",
-  "last_updated": "2026-06-26T17:25:46.990681",
-  "total_posts_published": 74,
-  "total_pins_created": 75,
+  "last_updated": "2026-06-26T21:08:34.009683",
+  "total_posts_published": 75,
+  "total_pins_created": 76,
   "api_keys_configured": true,
   "blogger_configured": true,
   "pinterest_configured": true,
@@ -42,7 +42,8 @@
     "the ultimate guide to japandi interior design",
     "10 minimalist bedroom ideas for a calming space",
     "How to Create the Perfect Gallery Wall",
-    "5 budget-friendly bathroom makeover ideas"
+    "5 budget-friendly bathroom makeover ideas",
+    "Home Office Setup Ideas for Maximum Productivity"
   ],
   "failed_attempts": [
     {
@@ -77,18 +78,6 @@
     "model": "flux-realism"
   },
   "sessions": [
-    {
-      "date": "2026-06-21T20:49:42.855846",
-      "action": "Daily run started - 1 posts",
-      "status": "started",
-      "notes": ""
-    },
-    {
-      "date": "2026-06-21T20:49:57.977182",
-      "action": "Daily run complete: 1 success, 0 failed",
-      "status": "completed",
-      "notes": "Total posts ever: 50"
-    },
     {
       "date": "2026-06-21T23:55:17.575211",
       "action": "Daily run started - 1 posts",
@@ -376,6 +365,18 @@
       "action": "Daily run complete: 1 success, 0 failed",
       "status": "completed",
       "notes": "Total posts ever: 74"
+    },
+    {
+      "date": "2026-06-26T21:08:14.443350",
+      "action": "Daily run started - 1 posts",
+      "status": "started",
+      "notes": ""
+    },
+    {
+      "date": "2026-06-26T21:08:34.009676",
+      "action": "Daily run complete: 1 success, 0 failed",
+      "status": "completed",
+      "notes": "Total posts ever: 75"
     }
   ],
   "settings": {
@@ -419,9 +420,9 @@
     }
   },
   "stats": {
-    "this_week": 74,
-    "this_month": 74,
-    "all_time": 74
+    "this_week": 75,
+    "this_month": 75,
+    "all_time": 75
   },
   "system_info": {
     "python_version": "3.11+",
