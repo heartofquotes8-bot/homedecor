@@ -189,3 +189,5 @@
 [2026-06-30 13:31:34] [SUCCESS] SUCCESS: Transform Your Space with Scandinavian Interior Design: Essential Tips for Beginners | Blog: True | Pin: True
 [2026-06-30 17:32:20] [INFO] Topic selected: creating a cozy reading nook in a small space
 [2026-06-30 17:32:27] [SUCCESS] SUCCESS: Cozy Reading Nook Ideas: Transform Your Small Space into a Book Lover's Paradise | Blog: True | Pin: True
+[2026-06-30 21:19:45] [INFO] Topic selected: earthy tone color palettes for a warm home
+[2026-06-30 21:19:51] [SUCCESS] SUCCESS: Warm and Inviting: The Ultimate Guide to Earthy Tone Color Palettes for a Cozy Home | Blog: True | Pin: True
