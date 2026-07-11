@@ -295,3 +295,5 @@
 [2026-07-11 10:47:19] [SUCCESS] SUCCESS: Boho Chic Meets Cozy: 10 Essential Living Room Decor Ideas | Blog: True | Pin: True
 [2026-07-11 14:39:47] [INFO] Topic selected: the ultimate guide to japandi interior design
 [2026-07-11 14:39:53] [SUCCESS] SUCCESS: Japandi Interior Design: The Ultimate Style Guide for a Serene Home | Blog: True | Pin: True
+[2026-07-11 18:13:03] [INFO] Topic selected: how to decorate a small living room to look bigger
+[2026-07-11 18:13:09] [SUCCESS] SUCCESS: Transform Your Tiny Space: Expert Tips to Make a Small Living Room Look Bigger | Blog: True | Pin: True
