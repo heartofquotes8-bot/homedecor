@@ -323,3 +323,6 @@
 [2026-07-14 05:39:45] [SUCCESS] SUCCESS: Cozy Reading Nook Ideas: Transform Small Spaces into Tranquil Retreats | Blog: True | Pin: True
 [2026-07-14 09:18:54] [INFO] Topic selected: how to decorate a small living room to look bigger
 [2026-07-14 09:19:01] [SUCCESS] SUCCESS: 10 Expert Secrets to Make Your Small Living Room Look Huge | Blog: True | Pin: True
+[2026-07-14 12:40:28] [INFO] Topic selected: luxury kitchen design trends for 2026
+[2026-07-14 12:40:34] [ERROR] Blogger publish failed: <HttpError 403 when requesting https://blogger.googleapis.com/v3/blogs/5842917719148063538/posts?isDraft=false&fetchBody=false&alt=json returned "The caller does not have permission". Details: "[{'message': 'The caller does not have permission', 'domain': 'global', 'reason': 'forbidden'}]">
+[2026-07-14 12:40:34] [SUCCESS] SUCCESS: 2026 Luxury Kitchen Design Trends: The Ultimate Guide to Opulence | Blog: False | Pin: True
