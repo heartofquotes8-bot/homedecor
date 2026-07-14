@@ -326,3 +326,5 @@
 [2026-07-14 12:40:28] [INFO] Topic selected: luxury kitchen design trends for 2026
 [2026-07-14 12:40:34] [ERROR] Blogger publish failed: <HttpError 403 when requesting https://blogger.googleapis.com/v3/blogs/5842917719148063538/posts?isDraft=false&fetchBody=false&alt=json returned "The caller does not have permission". Details: "[{'message': 'The caller does not have permission', 'domain': 'global', 'reason': 'forbidden'}]">
 [2026-07-14 12:40:34] [SUCCESS] SUCCESS: 2026 Luxury Kitchen Design Trends: The Ultimate Guide to Opulence | Blog: False | Pin: True
+[2026-07-14 16:40:33] [INFO] Topic selected: mid-century modern furniture essentials
+[2026-07-14 16:40:40] [SUCCESS] SUCCESS: Revamp Your Space with Mid-Century Modern Furniture Essentials | Blog: True | Pin: True
