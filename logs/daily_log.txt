@@ -358,3 +358,5 @@
 [2026-07-17 12:21:05] [SUCCESS] SUCCESS: Transform Your Space: 10 Essential Cozy Boho Living Room Decor Ideas | Blog: True | Pin: True
 [2026-07-17 16:36:00] [INFO] Topic selected: Luxury Kitchen Design Trends for 2026
 [2026-07-17 16:36:07] [SUCCESS] SUCCESS: 2026 Luxury Kitchen Design Trends: The Ultimate Guide to Modern Sophistication | Blog: True | Pin: True
+[2026-07-17 20:14:54] [INFO] Topic selected: Earthy Tone Color Palettes for a Warm Home
+[2026-07-17 20:15:00] [SUCCESS] SUCCESS: Warm and Inviting Earthy Tone Color Palettes to Transform Your Home | Blog: True | Pin: True
