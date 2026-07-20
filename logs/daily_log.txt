@@ -384,3 +384,5 @@
 [2026-07-20 06:25:27] [SUCCESS] SUCCESS: Maximize Your Productivity: Expert Home Office Setup Ideas | Blog: True | Pin: True
 [2026-07-20 10:21:21] [INFO] Topic selected: best indoor plants for modern home decor
 [2026-07-20 10:21:27] [SUCCESS] SUCCESS: Revolutionize Your Space: The Ultimate Guide to Best Indoor Plants for Modern Home Decor | Blog: True | Pin: True
+[2026-07-20 13:17:23] [INFO] Topic selected: earthy tone color palettes for a warm home
+[2026-07-20 13:17:29] [SUCCESS] SUCCESS: Earth Tone Color Palettes: The Secret to a Warm and Inviting Home | Blog: True | Pin: True
