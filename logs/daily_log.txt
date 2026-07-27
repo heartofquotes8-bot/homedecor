@@ -450,3 +450,5 @@
 [2026-07-26 16:16:30] [SUCCESS] SUCCESS: Transform Your Outdoor Oasis: 20 Aesthetic Apartment Balcony Decorating Ideas | Blog: True | Pin: True
 [2026-07-26 20:17:39] [INFO] Topic selected: the ultimate guide to japandi interior design
 [2026-07-26 20:17:46] [SUCCESS] SUCCESS: Japandi Interior Design: The Ultimate Guide to Harmonious Minimalism | Blog: True | Pin: True
+[2026-07-27 06:40:07] [INFO] Topic selected: earthy tone color palettes for a warm home
+[2026-07-27 06:40:13] [SUCCESS] SUCCESS: Warm Earthy Tones to Cozy Up Your Home: Expert Interior Design Tips | Blog: True | Pin: True
