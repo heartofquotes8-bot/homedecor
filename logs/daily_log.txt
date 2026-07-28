@@ -468,3 +468,5 @@
 [2026-07-28 13:02:14] [SUCCESS] SUCCESS: Mid-Century Modern Furniture Essentials: Timeless Style for the Modern Home | Blog: True | Pin: True
 [2026-07-28 16:52:53] [INFO] Topic selected: scandinavian interior design tips for beginners
 [2026-07-28 16:53:00] [SUCCESS] SUCCESS: Transform Your Space with Scandinavian Interior Design: Essential Tips for Beginners | Blog: True | Pin: True
+[2026-07-28 20:35:02] [INFO] Topic selected: The Ultimate Guide to Japandi Interior Design
+[2026-07-28 20:35:07] [SUCCESS] SUCCESS: Japandi Interior Design: The Perfect Blend of Japanese and Scandinavian Styles | Blog: True | Pin: True
