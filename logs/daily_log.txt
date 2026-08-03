@@ -526,3 +526,5 @@
 [2026-08-03 10:52:24] [SUCCESS] SUCCESS: Transform Your Space: Cozy Boho Living Room Decor Inspiration | Blog: True | Pin: True
 [2026-08-03 13:48:32] [INFO] Topic selected: DIY Wall Art Projects to Elevate Your Space
 [2026-08-03 13:48:39] [SUCCESS] SUCCESS: Transform Your Space with 10 Stunning DIY Wall Art Projects | Blog: True | Pin: True
+[2026-08-03 17:21:01] [INFO] Topic selected: 10 minimalist bedroom ideas for a calming space
+[2026-08-03 17:21:08] [SUCCESS] SUCCESS: Transform Your Sanctuary: 10 Minimalist Bedroom Ideas for a Calming Space | Blog: True | Pin: True
