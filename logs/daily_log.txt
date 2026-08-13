@@ -624,3 +624,5 @@
 [2026-08-13 08:45:33] [SUCCESS] SUCCESS: 5 Budget-Friendly Bathroom Makeover Ideas to Transform Your Space | Blog: True | Pin: True
 [2026-08-13 11:59:53] [INFO] Topic selected: 10 Minimalist Bedroom Ideas for a Calming Space
 [2026-08-13 12:00:01] [SUCCESS] SUCCESS: 10 Minimalist Bedroom Ideas for a Calming Space: Transform Your Sanctuary | Blog: True | Pin: True
+[2026-08-13 16:12:13] [INFO] Topic selected: Earthy Tone Color Palettes for a Warm Home
+[2026-08-13 16:12:20] [SUCCESS] SUCCESS: Warm and Inviting: The Ultimate Guide to Earthy Tone Color Palettes for Your Home | Blog: True | Pin: True
