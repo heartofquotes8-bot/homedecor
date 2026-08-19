@@ -689,3 +689,6 @@
 [2026-08-19 03:57:26] [INFO] Topic selected: Creating a Cozy Reading Nook in a Small Space
 [2026-08-19 03:57:26] [CRITICAL] Critical error in run_single_post: Groq API Error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
 
+[2026-08-19 11:40:29] [INFO] Topic selected: Best Indoor Plants for Modern Home Decor
+[2026-08-19 11:40:29] [CRITICAL] Critical error in run_single_post: Groq API Error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
