@@ -758,3 +758,6 @@
 [2026-08-24 04:03:19] [INFO] Topic selected: best indoor plants for modern home decor
 [2026-08-24 04:03:19] [CRITICAL] Critical error in run_single_post: Groq API Error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
 
+[2026-08-24 08:05:59] [INFO] Topic selected: DIY Wall Art Projects to Elevate Your Space
+[2026-08-24 08:05:59] [CRITICAL] Critical error in run_single_post: Groq API Error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
