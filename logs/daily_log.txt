@@ -776,3 +776,6 @@
 [2026-08-25 08:00:28] [INFO] Topic selected: home office setup ideas for maximum productivity
 [2026-08-25 08:00:28] [CRITICAL] Critical error in run_single_post: Groq API Error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
 
+[2026-08-25 11:43:48] [INFO] Topic selected: DIY Wall Art Projects to Elevate Your Space
+[2026-08-25 11:43:48] [CRITICAL] Critical error in run_single_post: Groq API Error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
