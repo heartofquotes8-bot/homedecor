@@ -782,3 +782,6 @@
 [2026-08-25 16:03:07] [INFO] Topic selected: How to Create the Perfect Gallery Wall
 [2026-08-25 16:03:08] [CRITICAL] Critical error in run_single_post: Groq API Error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
 
+[2026-08-25 19:46:20] [INFO] Topic selected: how to create the perfect gallery wall
+[2026-08-25 19:46:21] [CRITICAL] Critical error in run_single_post: Groq API Error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
