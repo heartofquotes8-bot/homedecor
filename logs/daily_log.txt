@@ -833,3 +833,6 @@
 [2026-08-29 10:01:06] [INFO] Topic selected: best indoor plants for modern home decor
 [2026-08-29 10:01:06] [CRITICAL] Critical error in run_single_post: Groq API Error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
 
+[2026-08-29 13:11:34] [INFO] Topic selected: mid-century modern furniture essentials
+[2026-08-29 13:11:35] [CRITICAL] Critical error in run_single_post: Groq API Error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
