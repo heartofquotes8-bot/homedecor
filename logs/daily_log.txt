@@ -923,3 +923,6 @@
 [2026-09-04 07:57:01] [INFO] Topic selected: diy wall art projects to elevate your space
 [2026-09-04 07:57:01] [CRITICAL] Critical error in run_single_post: Groq API Error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
 
+[2026-09-04 12:09:33] [INFO] Topic selected: 10 minimalist bedroom ideas for a calming space
+[2026-09-04 12:09:34] [CRITICAL] Critical error in run_single_post: Groq API Error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
