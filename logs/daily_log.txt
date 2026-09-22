@@ -1199,3 +1199,6 @@
 [2026-09-22 15:31:41] [INFO] Topic selected: earthy tone color palettes for a warm home
 [2026-09-22 15:31:41] [CRITICAL] Critical error in run_single_post: Groq API Error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
 
+[2026-09-22 18:58:25] [INFO] Topic selected: 10 minimalist bedroom ideas for a calming space
+[2026-09-22 18:58:25] [CRITICAL] Critical error in run_single_post: Groq API Error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
