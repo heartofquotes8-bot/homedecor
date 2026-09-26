@@ -1250,3 +1250,6 @@
 [2026-09-25 22:21:39] [INFO] Topic selected: The Ultimate Guide to Japandi Interior Design
 [2026-09-25 22:21:39] [CRITICAL] Critical error in run_single_post: Groq API Error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
 
+[2026-09-26 08:33:09] [INFO] Topic selected: best indoor plants for modern home decor
+[2026-09-26 08:33:09] [CRITICAL] Critical error in run_single_post: Groq API Error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
