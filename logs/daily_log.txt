@@ -1319,3 +1319,6 @@
 [2026-09-30 16:49:43] [INFO] Topic selected: How to Decorate a Small Living Room to Look Bigger
 [2026-09-30 16:49:43] [CRITICAL] Critical error in run_single_post: Groq API Error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
 
+[2026-09-30 20:05:32] [INFO] Topic selected: luxury kitchen design trends for 2026
+[2026-09-30 20:05:32] [CRITICAL] Critical error in run_single_post: Groq API Error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
