@@ -1337,3 +1337,6 @@
 [2026-10-01 20:22:43] [INFO] Topic selected: Cozy Boho Living Room Decor Inspiration
 [2026-10-01 20:22:43] [CRITICAL] Critical error in run_single_post: Groq API Error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
 
+[2026-10-01 23:13:25] [INFO] Topic selected: how to decorate a small living room to look bigger
+[2026-10-01 23:13:25] [CRITICAL] Critical error in run_single_post: Groq API Error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
