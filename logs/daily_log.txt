@@ -1493,3 +1493,6 @@
 [2026-10-12 16:46:20] [INFO] Topic selected: 10 Minimalist Bedroom Ideas for a Calming Space
 [2026-10-12 16:46:20] [CRITICAL] Critical error in run_single_post: Groq API Error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
 
+[2026-10-12 20:17:57] [INFO] Topic selected: diy wall art projects to elevate your space
+[2026-10-12 20:17:58] [CRITICAL] Critical error in run_single_post: Groq API Error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
