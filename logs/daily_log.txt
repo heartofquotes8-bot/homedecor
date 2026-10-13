@@ -1505,3 +1505,6 @@
 [2026-10-13 10:30:46] [INFO] Topic selected: Best Indoor Plants for Modern Home Decor
 [2026-10-13 10:30:46] [CRITICAL] Critical error in run_single_post: Groq API Error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
 
+[2026-10-13 15:05:52] [INFO] Topic selected: Earthy Tone Color Palettes for a Warm Home
+[2026-10-13 15:05:52] [CRITICAL] Critical error in run_single_post: Groq API Error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
