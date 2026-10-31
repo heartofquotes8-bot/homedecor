@@ -1781,3 +1781,6 @@
 [2026-10-31 16:05:56] [INFO] Topic selected: 5 budget-friendly bathroom makeover ideas
 [2026-10-31 16:05:56] [CRITICAL] Critical error in run_single_post: Groq API Error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
 
+[2026-10-31 19:21:04] [INFO] Topic selected: DIY Wall Art Projects to Elevate Your Space
+[2026-10-31 19:21:04] [CRITICAL] Critical error in run_single_post: Groq API Error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
