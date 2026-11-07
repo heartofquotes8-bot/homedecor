@@ -1886,3 +1886,6 @@
 [2026-11-07 16:50:33] [INFO] Topic selected: Earthy Tone Color Palettes for a Warm Home
 [2026-11-07 16:50:34] [CRITICAL] Critical error in run_single_post: Groq API Error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
 
+[2026-11-07 19:29:02] [INFO] Topic selected: diy wall art projects to elevate your space
+[2026-11-07 19:29:02] [CRITICAL] Critical error in run_single_post: Groq API Error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
