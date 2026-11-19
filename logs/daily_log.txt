@@ -2066,3 +2066,6 @@
 [2026-11-19 19:29:21] [INFO] Topic selected: The Ultimate Guide to Japandi Interior Design
 [2026-11-19 19:29:21] [CRITICAL] Critical error in run_single_post: Groq API Error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
 
+[2026-11-19 22:41:14] [INFO] Topic selected: 5 budget-friendly bathroom makeover ideas
+[2026-11-19 22:41:14] [CRITICAL] Critical error in run_single_post: Groq API Error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
