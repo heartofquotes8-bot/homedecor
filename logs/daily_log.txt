@@ -2141,3 +2141,6 @@
 [2026-11-24 21:11:09] [INFO] Topic selected: 5 Budget-Friendly Bathroom Makeover Ideas
 [2026-11-24 21:11:09] [CRITICAL] Critical error in run_single_post: Groq API Error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
 
+[2026-11-24 23:56:29] [INFO] Topic selected: Cozy Boho Living Room Decor Inspiration
+[2026-11-24 23:56:29] [CRITICAL] Critical error in run_single_post: Groq API Error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
