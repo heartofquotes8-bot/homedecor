@@ -2162,3 +2162,6 @@
 [2026-11-26 02:12:54] [INFO] Topic selected: Scandinavian Interior Design Tips for Beginners
 [2026-11-26 02:12:54] [CRITICAL] Critical error in run_single_post: Groq API Error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
 
+[2026-11-26 12:22:36] [INFO] Topic selected: DIY Wall Art Projects to Elevate Your Space
+[2026-11-26 12:22:36] [CRITICAL] Critical error in run_single_post: Groq API Error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+
